@@ -21,6 +21,19 @@ __sass__: SCSS(Sass) 문법을 해석(스타일 전처리기)<br>
 __postcss__: Autoprefixer 등의 다양한 스타일 후처리기 패키지<br>
 __autoprefixer__: 스타일에 자동으로 공급 업체 접두사(Vendor prefix)를 적용하는 PostCSS의 플러그인<br> 
 
+## 프로젝트 clone `degit`
+깃 리포지토리에서 파일만 복사해오는 도구인 degit 옵션을 사용한다.
+
+### npx 방식
+설치 없이 실행 가능한 npm CLI 이다.
+아래 명령을 통해 degit 패키지를 즉시 실행하여 GitHub 레포지토리를 다운로드한다.
+- `npx degit YooHyeok/vue3-webpack-template#main <생성할 프로젝트(디렉토리)명>`
+
+### npm 방식
+degit을 로컬 또는 전역에 설치한 뒤 degit 명령을 통해 GitHub 레포지토리를 다운로드한다.
+- `npm install -g degit`
+- `degit YooHyeok/vue3-webpack-template#main <생성할 프로젝트(디렉토리)명>`
+
 ## 주의사항!
 
 - `npm i -D webpack-dev-server@next`로 설치(webpack-cli 버전(@4^)과 일치)!<br>
